@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "reflect-metadata"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "allowJs": false, // 是否允许出现js
+    "newLine": "LF",
+    "allowSyntheticDefaultImports":true
+  },
+  "include": [
+    "packages/**/*"
+  ]
+}
